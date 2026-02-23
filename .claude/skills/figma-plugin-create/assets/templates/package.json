@@ -1,0 +1,15 @@
+{
+  "name": "{{PLUGIN_NAME_KEBAB}}",
+  "version": "1.0.0",
+  "description": "{{PLUGIN_NAME}} — Figma plugin",
+  "scripts": {
+    "build": "node esbuild.config.js",
+    "watch": "node esbuild.config.js --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.121.0",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.7.0"
+  }
+}
